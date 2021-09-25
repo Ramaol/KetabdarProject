@@ -1,0 +1,17 @@
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/bin/Debug/net5.0/ShopManageMent.Application.Contract.deps.json
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/bin/Debug/net5.0/ShopManageMent.Application.Contract.dll
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/bin/Debug/net5.0/ref/ShopManageMent.Application.Contract.dll
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/bin/Debug/net5.0/ShopManageMent.Application.Contract.pdb
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/bin/Debug/net5.0/ShopManagement.Domain.dll
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/bin/Debug/net5.0/Zero_Framework.dll
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/bin/Debug/net5.0/ShopManagement.Domain.pdb
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/bin/Debug/net5.0/Zero_Framework.pdb
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/obj/Debug/net5.0/ShopManageMent.Application.Contract.csproj.AssemblyReference.cache
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/obj/Debug/net5.0/ShopManageMent.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/obj/Debug/net5.0/ShopManageMent.Application.Contract.AssemblyInfoInputs.cache
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/obj/Debug/net5.0/ShopManageMent.Application.Contract.AssemblyInfo.cs
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/obj/Debug/net5.0/ShopManageMent.Application.Contract.csproj.CoreCompileInputs.cache
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/obj/Debug/net5.0/ShopManageMent.Application.Contract.csproj.CopyComplete
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/obj/Debug/net5.0/ShopManageMent.Application.Contract.dll
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/obj/Debug/net5.0/ref/ShopManageMent.Application.Contract.dll
+/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/obj/Debug/net5.0/ShopManageMent.Application.Contract.pdb

@@ -1,0 +1,12 @@
+/home/ramol/projects/Ketabdar/0_Framework/bin/Debug/net5.0/Zero_Framework.deps.json
+/home/ramol/projects/Ketabdar/0_Framework/bin/Debug/net5.0/Zero_Framework.dll
+/home/ramol/projects/Ketabdar/0_Framework/bin/Debug/net5.0/ref/Zero_Framework.dll
+/home/ramol/projects/Ketabdar/0_Framework/bin/Debug/net5.0/Zero_Framework.pdb
+/home/ramol/projects/Ketabdar/0_Framework/obj/Debug/net5.0/Zero_Framework.csproj.AssemblyReference.cache
+/home/ramol/projects/Ketabdar/0_Framework/obj/Debug/net5.0/Zero_Framework.GeneratedMSBuildEditorConfig.editorconfig
+/home/ramol/projects/Ketabdar/0_Framework/obj/Debug/net5.0/Zero_Framework.AssemblyInfoInputs.cache
+/home/ramol/projects/Ketabdar/0_Framework/obj/Debug/net5.0/Zero_Framework.AssemblyInfo.cs
+/home/ramol/projects/Ketabdar/0_Framework/obj/Debug/net5.0/Zero_Framework.csproj.CoreCompileInputs.cache
+/home/ramol/projects/Ketabdar/0_Framework/obj/Debug/net5.0/Zero_Framework.dll
+/home/ramol/projects/Ketabdar/0_Framework/obj/Debug/net5.0/ref/Zero_Framework.dll
+/home/ramol/projects/Ketabdar/0_Framework/obj/Debug/net5.0/Zero_Framework.pdb

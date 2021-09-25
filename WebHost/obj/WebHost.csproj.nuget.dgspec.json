@@ -1,0 +1,476 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ramol/projects/Ketabdar/WebHost/WebHost.csproj": {}
+  },
+  "projects": {
+    "/home/ramol/projects/Ketabdar/0_Framework/Zero_Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ramol/projects/Ketabdar/0_Framework/Zero_Framework.csproj",
+        "projectName": "Zero_Framework",
+        "projectPath": "/home/ramol/projects/Ketabdar/0_Framework/Zero_Framework.csproj",
+        "packagesPath": "/home/ramol/.nuget/packages/",
+        "outputPath": "/home/ramol/projects/Ketabdar/0_Framework/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ramol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/ShopManageMent.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/ShopManageMent.Application.Contract.csproj",
+        "projectName": "ShopManageMent.Application.Contract",
+        "projectPath": "/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/ShopManageMent.Application.Contract.csproj",
+        "packagesPath": "/home/ramol/.nuget/packages/",
+        "outputPath": "/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ramol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/ramol/projects/Ketabdar/ShopManagement.Domain/ShopManagement.Domain.csproj": {
+                "projectPath": "/home/ramol/projects/Ketabdar/ShopManagement.Domain/ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ramol/projects/Ketabdar/ShopManagement.Application/ShopManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ramol/projects/Ketabdar/ShopManagement.Application/ShopManagement.Application.csproj",
+        "projectName": "ShopManagement.Application",
+        "projectPath": "/home/ramol/projects/Ketabdar/ShopManagement.Application/ShopManagement.Application.csproj",
+        "packagesPath": "/home/ramol/.nuget/packages/",
+        "outputPath": "/home/ramol/projects/Ketabdar/ShopManagement.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ramol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/ShopManageMent.Application.Contract.csproj": {
+                "projectPath": "/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/ShopManageMent.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ramol/projects/Ketabdar/ShopManagement.Domain/ShopManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ramol/projects/Ketabdar/ShopManagement.Domain/ShopManagement.Domain.csproj",
+        "projectName": "ShopManagement.Domain",
+        "projectPath": "/home/ramol/projects/Ketabdar/ShopManagement.Domain/ShopManagement.Domain.csproj",
+        "packagesPath": "/home/ramol/.nuget/packages/",
+        "outputPath": "/home/ramol/projects/Ketabdar/ShopManagement.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ramol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/ramol/projects/Ketabdar/0_Framework/Zero_Framework.csproj": {
+                "projectPath": "/home/ramol/projects/Ketabdar/0_Framework/Zero_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ramol/projects/Ketabdar/ShopManagement.Infrastructure/ShopManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ramol/projects/Ketabdar/ShopManagement.Infrastructure/ShopManagement.Infrastructure.csproj",
+        "projectName": "ShopManagement.Infrastructure",
+        "projectPath": "/home/ramol/projects/Ketabdar/ShopManagement.Infrastructure/ShopManagement.Infrastructure.csproj",
+        "packagesPath": "/home/ramol/.nuget/packages/",
+        "outputPath": "/home/ramol/projects/Ketabdar/ShopManagement.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ramol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/ramol/projects/Ketabdar/ShopManagement.Domain/ShopManagement.Domain.csproj": {
+                "projectPath": "/home/ramol/projects/Ketabdar/ShopManagement.Domain/ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ramol/projects/Ketabdar/Shopmanagement.Configuration/Shopmanagement.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ramol/projects/Ketabdar/Shopmanagement.Configuration/Shopmanagement.Configuration.csproj",
+        "projectName": "Shopmanagement.Configuration",
+        "projectPath": "/home/ramol/projects/Ketabdar/Shopmanagement.Configuration/Shopmanagement.Configuration.csproj",
+        "packagesPath": "/home/ramol/.nuget/packages/",
+        "outputPath": "/home/ramol/projects/Ketabdar/Shopmanagement.Configuration/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ramol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/ramol/projects/Ketabdar/0_Framework/Zero_Framework.csproj": {
+                "projectPath": "/home/ramol/projects/Ketabdar/0_Framework/Zero_Framework.csproj"
+              },
+              "/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/ShopManageMent.Application.Contract.csproj": {
+                "projectPath": "/home/ramol/projects/Ketabdar/ShopManageMent.Application.Contract/ShopManageMent.Application.Contract.csproj"
+              },
+              "/home/ramol/projects/Ketabdar/ShopManagement.Application/ShopManagement.Application.csproj": {
+                "projectPath": "/home/ramol/projects/Ketabdar/ShopManagement.Application/ShopManagement.Application.csproj"
+              },
+              "/home/ramol/projects/Ketabdar/ShopManagement.Domain/ShopManagement.Domain.csproj": {
+                "projectPath": "/home/ramol/projects/Ketabdar/ShopManagement.Domain/ShopManagement.Domain.csproj"
+              },
+              "/home/ramol/projects/Ketabdar/ShopManagement.Infrastructure/ShopManagement.Infrastructure.csproj": {
+                "projectPath": "/home/ramol/projects/Ketabdar/ShopManagement.Infrastructure/ShopManagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ramol/projects/Ketabdar/WebHost/WebHost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ramol/projects/Ketabdar/WebHost/WebHost.csproj",
+        "projectName": "WebHost",
+        "projectPath": "/home/ramol/projects/Ketabdar/WebHost/WebHost.csproj",
+        "packagesPath": "/home/ramol/.nuget/packages/",
+        "outputPath": "/home/ramol/projects/Ketabdar/WebHost/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ramol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/ramol/projects/Ketabdar/Shopmanagement.Configuration/Shopmanagement.Configuration.csproj": {
+                "projectPath": "/home/ramol/projects/Ketabdar/Shopmanagement.Configuration/Shopmanagement.Configuration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

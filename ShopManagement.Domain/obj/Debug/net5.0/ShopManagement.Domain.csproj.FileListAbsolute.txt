@@ -1,0 +1,15 @@
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/bin/Debug/net5.0/ShopManagement.Domain.deps.json
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/bin/Debug/net5.0/ShopManagement.Domain.dll
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/bin/Debug/net5.0/ref/ShopManagement.Domain.dll
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/bin/Debug/net5.0/ShopManagement.Domain.pdb
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/bin/Debug/net5.0/Zero_Framework.dll
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/bin/Debug/net5.0/Zero_Framework.pdb
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/obj/Debug/net5.0/ShopManagement.Domain.csproj.AssemblyReference.cache
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/obj/Debug/net5.0/ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/obj/Debug/net5.0/ShopManagement.Domain.AssemblyInfoInputs.cache
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/obj/Debug/net5.0/ShopManagement.Domain.AssemblyInfo.cs
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/obj/Debug/net5.0/ShopManagement.Domain.csproj.CoreCompileInputs.cache
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/obj/Debug/net5.0/ShopManagement.Domain.csproj.CopyComplete
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/obj/Debug/net5.0/ShopManagement.Domain.dll
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/obj/Debug/net5.0/ref/ShopManagement.Domain.dll
+/home/ramol/projects/Ketabdar/ShopManagement.Domain/obj/Debug/net5.0/ShopManagement.Domain.pdb
