@@ -22,7 +22,7 @@ namespace ShopManagement.Infrastructure.Repositories
             if(!String.IsNullOrWhiteSpace(name))
                 return _Context.BookCateguries.Where( x=> x.Name.Contains(name)).OrderByDescending( x => x.Id).ToList();
 
-            return null;
+            return _Context.BookCateguries.OrderByDescending(x => x.Id).ToList();
         }   
 
     }

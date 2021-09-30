@@ -15619,8 +15619,8 @@
   "RootNamespace": "WebHost",
   "Documents": [
     {
-      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Shared/_AdminLayout.cshtml",
-      "TargetPath": "Areas\\Shared\\_AdminLayout.cshtml",
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/Shop/BookCateguries/Create.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Shop\\BookCateguries\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -19,16 +19,16 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
 
-            if(_bookCateguryRepository.Exist( x => command.Name == command.Name))
+            if(_bookCateguryRepository.Exist( x => x.Name == command.Name))
             {
                 return operation.Failed(".این رکورد قبلا ثبت شده است");
             } 
             else
             {
-                var bookCategury = new BookCategury(command.Name , command.KeyWords , command.MetaDescrption , command.Slug);
+                var bookCategury = new BookCategury(command.Name , command.Keywords , command.MetaDescription , command.Slug);
                 _bookCateguryRepository.Create(bookCategury);
                 _bookCateguryRepository.SaveChanges();
-                return operation.Succedded();
+                return operation.Succedded("عملیات با موفقیت انجام شد");
             }
         }
 
@@ -43,7 +43,7 @@ namespace ShopManagement.Application
             if(_bookCateguryRepository.Exist(x => x.Name == command.Name && x.Id != command.Id))
                 return operation.Failed("امکان ثبت رکورد تکراری وجود ندارد مجددا تلاش کنید");
 
-            BookCategury.Edit(command.Name , command.KeyWords , command.MetaDescrption , command.Slug); 
+            BookCategury.Edit(command.Name , command.Keywords , command.MetaDescription , command.Slug); 
             _bookCateguryRepository.SaveChanges();
             return operation.Succedded();   
         }

@@ -18,7 +18,8 @@ namespace Zero_Framework.Infrastructure
         }
         public void Create(T entity)
         {
-            _Context.Add(entity);
+            _Context.Set<T>().Add(entity);
+            
         }
 
         public bool Exist(Expression<Func<T, bool>> expression)
