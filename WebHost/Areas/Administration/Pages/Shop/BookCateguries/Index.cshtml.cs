@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManageMent.Application.Contract.BookCategury;
 
@@ -18,6 +19,18 @@ namespace WebHost.Areas.Administration.Pages.Shop.BookCateguries
         {
             Items = _bookCateguryApplication.Search(SearchModel);            
         }
+
+        public IActionResult OnGetCreate()
+        {
+            return Partial("./Create" , new CreateBookCategury());
+        }
+
+        public JsonResult OnPostCreate(CreateBookCategury command)
+        {
+            var result = _bookCateguryApplication.Create(command);
+            return new JsonResult(result);
+        }
+
     }
 
 }
