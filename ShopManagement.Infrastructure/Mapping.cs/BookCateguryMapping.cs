@@ -13,7 +13,7 @@ namespace ShopManagement.Infrastructure.Mapping.cs
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Name).HasMaxLength(255).IsRequired();
             builder.Property(x => x.KeyWords).HasMaxLength(80).IsRequired();
-            builder.Property(x => x.MetaDescription).HasMaxLength(150);
+            builder.Property(x => x.MetaDescription).HasMaxLength(150).IsRequired();
             builder.Property( x => x.Slug).HasMaxLength(300).IsRequired();
         }
     }

@@ -38,6 +38,7 @@ namespace WebHost.Migrations
                         .HasColumnType("nvarchar(80)");
 
                     b.Property<string>("MetaDescription")
+                        .IsRequired()
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 

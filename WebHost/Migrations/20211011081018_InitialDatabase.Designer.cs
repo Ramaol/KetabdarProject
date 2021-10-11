@@ -10,8 +10,8 @@ using ShopManagement.Infrastructure;
 namespace WebHost.Migrations
 {
     [DbContext(typeof(ShopContext))]
-    [Migration("20210928111344_MetaFuc")]
-    partial class MetaFuc
+    [Migration("20211011081018_InitialDatabase")]
+    partial class InitialDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -40,6 +40,7 @@ namespace WebHost.Migrations
                         .HasColumnType("nvarchar(80)");
 
                     b.Property<string>("MetaDescription")
+                        .IsRequired()
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 

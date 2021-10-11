@@ -89,3 +89,4 @@
 /home/ramol/projects/Ketabdar/WebHost/obj/Debug/net5.0/Razor/Areas/Administration/Pages/_ViewStart.cshtml.g.cs
 /home/ramol/projects/Ketabdar/WebHost/obj/Debug/net5.0/Razor/Areas/Administration/Pages/Shop/BookCateguries/Index.cshtml.g.cs
 /home/ramol/projects/Ketabdar/WebHost/obj/Debug/net5.0/Razor/Areas/Administration/Pages/Shop/BookCateguries/Create.cshtml.g.cs
+/home/ramol/projects/Ketabdar/WebHost/obj/Debug/net5.0/Razor/Areas/Administration/Pages/Shop/BookCateguries/Edit.cshtml.g.cs

@@ -54,8 +54,15 @@ namespace ShopManagement.Application
         }
 
         public EditBookCategury GetDatails(long id)
-        {
-            throw new NotImplementedException();
+        {   
+            var Sample = _bookCateguryRepository.Get(id);
+            return new EditBookCategury{
+                Name = Sample.Name , 
+                MetaDescription = Sample.MetaDescription , 
+                Keywords = Sample.KeyWords , 
+                Slug = Sample.Slug , 
+                Id = Sample.Id,
+            };
         }
 
         public List<BookCateguryViewModel> Search(BookCategurySearchModel command)

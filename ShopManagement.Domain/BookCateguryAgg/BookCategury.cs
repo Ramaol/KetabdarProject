@@ -17,11 +17,11 @@ namespace ShopManagement.Domain.BookCateguryAgg
             
         }
        
-        public BookCategury(string name , string keywords , string mertadescription , string slug)
+        public BookCategury(string name , string keywords , string metadescription , string slug)
         {
             Name = name; 
             KeyWords = keywords;
-            MetaDescription = MetaDescription;
+            MetaDescription = metadescription;
             Slug = slug;            
         }
 
