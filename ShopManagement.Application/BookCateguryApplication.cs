@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Linq;
 using System.Collections.Generic;
 using ShopManagement.Domain.BookCateguryAgg;
 using ShopManageMent.Application.Contract.BookCategury;
@@ -53,7 +53,7 @@ namespace ShopManagement.Application
             return _bookCateguryRepository.Get(id);
         }
 
-        public EditBookCategury GetDatails(long id)
+        public EditBookCategury GetDetails(long id)
         {   
             var Sample = _bookCateguryRepository.Get(id);
             return new EditBookCategury{
@@ -63,6 +63,24 @@ namespace ShopManagement.Application
                 Slug = Sample.Slug , 
                 Id = Sample.Id,
             };
+        }
+
+        public List<BookCateguryViewModel> List()
+        {
+            var Query = _bookCateguryRepository.GetAll();
+            var Result = new List<BookCateguryViewModel>();
+            
+            foreach (var item in Query)
+            {
+                Result.Add(new BookCateguryViewModel{
+                    Id = item.Id ,
+                    Name = item.Name , 
+                    CreationDate = item.CreationDate.ToString() 
+                    // BookCount = item.Books.g
+                });
+            }
+            return Result;
+            
         }
 
         public List<BookCateguryViewModel> Search(BookCategurySearchModel command)

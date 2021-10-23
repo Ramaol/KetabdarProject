@@ -15617,6 +15617,97 @@
     "CSharpLanguageVersion": 900
   },
   "RootNamespace": "WebHost",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/Shop/BookCateguries/Create.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Shop\\BookCateguries\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Pages/Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/Shared/_AdminLayout.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/Shop/BookCateguries/Edit.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Shop\\BookCateguries\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Pages/_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/_ViewImports.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/Index.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/Shop/Book/Create.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Shop\\Book\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Pages/Shared/_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/Shop/Book/Edit.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Shop\\Book\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/_ViewStart.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Pages/Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/Shop/BookCateguries/Index.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Shop\\BookCateguries\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ramol/projects/Ketabdar/WebHost/Areas/Administration/Pages/Shop/Book/Index.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Shop\\Book\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

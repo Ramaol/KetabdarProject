@@ -6,7 +6,8 @@ using ShopManagement.Infrastructure.Repositories;
 using ShopManageMent.Application.Contract.BookCategury;
 using ShopManagement.Infrastructure;
 using Microsoft.EntityFrameworkCore;
-
+using ShopManageMent.Application.Contract.Book;
+using ShopManagement.Domain.BookAgg;
 
 namespace Shopmanagement.Configuration
 {
@@ -16,7 +17,8 @@ namespace Shopmanagement.Configuration
         {   
             services.AddTransient<IBookCateguryRepository , BookCateguryRepository>();
             services.AddTransient<IBookCateguryApplication , BookCateguryApplication>();
-     
+            services.AddTransient<IBookApplication , BookApplication>();
+            services.AddTransient<IBookRepository , BookRepository>();
             services.AddDbContext<ShopContext>( x => x.UseSqlServer(ConnectionString , b => b.MigrationsAssembly("WebHost")));  
         }
     }

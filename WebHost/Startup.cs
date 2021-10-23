@@ -24,7 +24,7 @@ namespace WebHost
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {   
-            ShopManagementBootStrapper.Configure(services , "Server = localhost ; DataBase = NashrKetab ; User Id = sa ; Password = Sudogetradman1378!;");    
+            ShopManagementBootStrapper.Configure(services , "Server = localhost ; DataBase = HamidData ; User Id = sa ; Password = Sudogetradman1378!;");    
             services.AddRazorPages();
         }
 

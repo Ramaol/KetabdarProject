@@ -34,7 +34,7 @@ namespace WebHost.Areas.Administration.Pages.Shop.BookCateguries
 
         public IActionResult OnGetEdit(long id)
         {
-            var BookCategury = _bookCateguryApplication.GetDatails(id);
+            var BookCategury = _bookCateguryApplication.GetDetails(id);
             return Partial("./Edit" , BookCategury);
         }
         

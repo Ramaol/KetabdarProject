@@ -90,3 +90,16 @@
 /home/ramol/projects/Ketabdar/WebHost/obj/Debug/net5.0/Razor/Areas/Administration/Pages/Shop/BookCateguries/Index.cshtml.g.cs
 /home/ramol/projects/Ketabdar/WebHost/obj/Debug/net5.0/Razor/Areas/Administration/Pages/Shop/BookCateguries/Create.cshtml.g.cs
 /home/ramol/projects/Ketabdar/WebHost/obj/Debug/net5.0/Razor/Areas/Administration/Pages/Shop/BookCateguries/Edit.cshtml.g.cs
+/home/ramol/projects/Ketabdar/WebHost/obj/Debug/net5.0/Razor/Areas/Administration/Pages/Shop/Book/Create.cshtml.g.cs
+/home/ramol/projects/Ketabdar/WebHost/obj/Debug/net5.0/Razor/Areas/Administration/Pages/Shop/Book/Edit.cshtml.g.cs
+/home/ramol/projects/Ketabdar/WebHost/obj/Debug/net5.0/Razor/Areas/Administration/Pages/Shop/Book/Index.cshtml.g.cs
+/home/ramol/projects/Ketabdar/WebHost/bin/Debug/net5.0/mono_crash.21acb2c5e9.0.json
+/home/ramol/projects/Ketabdar/WebHost/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
+/home/ramol/projects/Ketabdar/WebHost/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+/home/ramol/projects/Ketabdar/WebHost/bin/Debug/net5.0/Microsoft.AspNetCore.Razor.Language.dll
+/home/ramol/projects/Ketabdar/WebHost/bin/Debug/net5.0/Microsoft.CodeAnalysis.dll
+/home/ramol/projects/Ketabdar/WebHost/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/ramol/projects/Ketabdar/WebHost/bin/Debug/net5.0/Microsoft.CodeAnalysis.Razor.dll
+/home/ramol/projects/Ketabdar/WebHost/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
+/home/ramol/projects/Ketabdar/WebHost/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+/home/ramol/projects/Ketabdar/WebHost/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
